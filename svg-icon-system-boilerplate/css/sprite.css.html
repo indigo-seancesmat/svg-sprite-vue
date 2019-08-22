@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+		<title>SVG CSS sprite preview | svg-sprite</title>
+		<style>@charset "UTF-8";body{padding:0;margin:0;color:#666;background:#fafafa;font-family:Arial,Helvetica,sans-serif;font-size:1em;line-height:1.4}header{display:block;padding:3em 3em 2em 3em;background-color:#fff}header p{margin:2em 0 0 0}section{border-top:1px solid #eee;padding:2em 3em 0 3em}section ul{margin:0;padding:0}section li{display:inline;display:inline-block;background-color:#fff;position:relative;margin:0 2em 2em 0;vertical-align:top;border:1px solid #ccc;padding:1em 1em 3em 1em;cursor:default}.icon-box{margin:0;width:144px;height:144px;position:relative;background:#ccc url("data:image/gif;base64,R0lGODlhDAAMAIAAAMzMzP///yH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjEgNjQuMTQwOTQ5LCAyMDEwLzEyLzA3LTEwOjU3OjAxICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1LjEgV2luZG93cyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozQjk4OTI0MUY5NTIxMUUyQkJDMEI5NEFEM0Y1QTYwQyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozQjk4OTI0MkY5NTIxMUUyQkJDMEI5NEFEM0Y1QTYwQyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjNCOTg5MjNGRjk1MjExRTJCQkMwQjk0QUQzRjVBNjBDIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjNCOTg5MjQwRjk1MjExRTJCQkMwQjk0QUQzRjVBNjBDIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+Af/+/fz7+vn49/b19PPy8fDv7u3s6+rp6Ofm5eTj4uHg397d3Nva2djX1tXU09LR0M/OzczLysnIx8bFxMPCwcC/vr28u7q5uLe2tbSzsrGwr66trKuqqainpqWko6KhoJ+enZybmpmYl5aVlJOSkZCPjo2Mi4qJiIeGhYSDgoGAf359fHt6eXh3dnV0c3JxcG9ubWxramloZ2ZlZGNiYWBfXl1cW1pZWFdWVVRTUlFQT05NTEtKSUhHRkVEQ0JBQD8+PTw7Ojk4NzY1NDMyMTAvLi0sKyopKCcmJSQjIiEgHx4dHBsaGRgXFhUUExIREA8ODQwLCgkIBwYFBAMCAQAAIfkEAAAAAAAsAAAAAAwADAAAAhaEH6mHmmzcgzJAUG/NVGrfOZ8YLlABADs=") top left repeat;border:1px solid #ccc;display:table-cell;vertical-align:middle;text-align:center}.icon{display:inline;display:inline-block}h1{margin-top:0}h2{margin:0;padding:0;font-size:1em;font-weight:normal;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;position:absolute;left:1em;right:1em;bottom:1em}footer{display:block;margin:0;padding:0 3em 3em 3em}footer p{margin:0;font-size:.7em}footer a{color:#0f7595;margin-left:0}</style>
+		<style>i{text-indent:200%;white-space:nowrap;overflow:hidden;display:inline-block;background-size:803px 249px!important}</style>
+
+<!--
+
+Sprite CSS
+====================================================================================================
+This is an all-in-one inline version of the CSS necessary to use the SVG sprite.
+
+-->
+
+<style type="text/css">
+.svg-gaming--mouse {
+	background: url("svg/sprite.css-2cbd08ac.svg") 31.695364238410598% 86.31840796019901% no-repeat;
+	width: 48px;
+	height: 48px;
+}
+.svg-gaming--n64 {
+	background: url("svg/sprite.css-2cbd08ac.svg") 44.41059602649007% 86.31840796019901% no-repeat;
+	width: 48px;
+	height: 48px;
+}
+.svg-gaming--ogn {
+	background: url("svg/sprite.css-2cbd08ac.svg") 38.05298013245033% 86.31840796019901% no-repeat;
+	width: 48px;
+	height: 48px;
+}
+.svg-gaming--ogn-controller {
+	background: url("svg/sprite.css-2cbd08ac.svg") 50.7682119205298% 86.31840796019901% no-repeat;
+	width: 48px;
+	height: 48px;
+}
+.svg-gaming--xbox {
+	background: url("svg/sprite.css-2cbd08ac.svg") 25.337748344370862% 86.31840796019901% no-repeat;
+	width: 48px;
+	height: 48px;
+}
+.svg-microsoft--graphs {
+	background: url("svg/sprite.css-2cbd08ac.svg") 8.394758394758394% 97.1444568868981% no-repeat;
+	width: 70.4px;
+	height: 70.4px;
+}
+.svg-microsoft--linegraph {
+	background: url("svg/sprite.css-2cbd08ac.svg") 17.73803119956966% 91.50843881856541% no-repeat;
+	width: 59.4px;
+	height: 59.4px;
+}
+.svg-microsoft--logo {
+	background: url("svg/sprite.css-2cbd08ac.svg") 0 0 no-repeat;
+	width: 803px;
+	height: 173.5px;
+}
+.svg-microsoft--thumbprint {
+	background: url("svg/sprite.css-2cbd08ac.svg") 0 99.71264367816092% no-repeat;
+	width: 61.5px;
+	height: 75px;
+}
+.svg-travel--boat {
+	background: url("svg/sprite.css-2cbd08ac.svg") 57.12582781456954% 86.31840796019901% no-repeat;
+	width: 48px;
+	height: 48px;
+}
+.svg-travel--camera {
+	background: url("svg/sprite.css-2cbd08ac.svg") 63.48344370860927% 86.31840796019901% no-repeat;
+	width: 48px;
+	height: 48px;
+}
+.svg-travel--earth {
+	background: url("svg/sprite.css-2cbd08ac.svg") 69.841059602649% 86.31840796019901% no-repeat;
+	width: 48px;
+	height: 48px;
+}
+.svg-travel--luggage {
+	background: url("svg/sprite.css-2cbd08ac.svg") 76.19867549668874% 86.31840796019901% no-repeat;
+	width: 48px;
+	height: 48px;
+}
+.svg-travel--map {
+	background: url("svg/sprite.css-2cbd08ac.svg") 82.55629139072846% 86.31840796019901% no-repeat;
+	width: 48px;
+	height: 48px;
+}
+.svg-travel--sunscreen {
+	background: url("svg/sprite.css-2cbd08ac.svg") 88.91390728476821% 86.31840796019901% no-repeat;
+	width: 48px;
+	height: 48px;
+}
+</style>
+
+<!--
+====================================================================================================
+-->
+
+	</head>
+	<body>
+		<header>
+			<h1>SVG CSS sprite preview</h1>
+			<p>This preview features the generated SVG file as a conventional CSS sprite. The shapes are displayed as background images of several <code>&lt;i&gt;</code> elements.</p>
+		</header>
+		<section>
+
+<!--
+
+Conventional CSS sprite
+====================================================================================================
+This technique uses CSS classes to display portions of the sprite as background image of
+appropriately sized elements.
+
+-->
+
+			<ul>
+				<li title="gaming--mouse">
+					<div class="icon-box">
+
+						<!-- gaming--mouse -->
+						<i class="svg-gaming--mouse">gaming--mouse</i>
+
+					</div>
+					<h2>gaming--mouse</h2>
+				</li>
+				<li title="gaming--n64">
+					<div class="icon-box">
+
+						<!-- gaming--n64 -->
+						<i class="svg-gaming--n64">gaming--n64</i>
+
+					</div>
+					<h2>gaming--n64</h2>
+				</li>
+				<li title="gaming--ogn">
+					<div class="icon-box">
+
+						<!-- gaming--ogn -->
+						<i class="svg-gaming--ogn">gaming--ogn</i>
+
+					</div>
+					<h2>gaming--ogn</h2>
+				</li>
+				<li title="gaming--ogn-controller">
+					<div class="icon-box">
+
+						<!-- gaming--ogn-controller -->
+						<i class="svg-gaming--ogn-controller">gaming--ogn-controller</i>
+
+					</div>
+					<h2>gaming--ogn-controller</h2>
+				</li>
+				<li title="gaming--xbox">
+					<div class="icon-box">
+
+						<!-- gaming--xbox -->
+						<i class="svg-gaming--xbox">gaming--xbox</i>
+
+					</div>
+					<h2>gaming--xbox</h2>
+				</li>
+				<li title="microsoft--graphs">
+					<div class="icon-box">
+
+						<!-- microsoft--graphs -->
+						<i class="svg-microsoft--graphs">microsoft--graphs</i>
+
+					</div>
+					<h2>microsoft--graphs</h2>
+				</li>
+				<li title="microsoft--linegraph">
+					<div class="icon-box">
+
+						<!-- microsoft--linegraph -->
+						<i class="svg-microsoft--linegraph">microsoft--linegraph</i>
+
+					</div>
+					<h2>microsoft--linegraph</h2>
+				</li>
+				<li title="microsoft--logo">
+					<div class="icon-box">
+
+						<!-- microsoft--logo -->
+						<i class="svg-microsoft--logo">microsoft--logo</i>
+
+					</div>
+					<h2>microsoft--logo</h2>
+				</li>
+				<li title="microsoft--thumbprint">
+					<div class="icon-box">
+
+						<!-- microsoft--thumbprint -->
+						<i class="svg-microsoft--thumbprint">microsoft--thumbprint</i>
+
+					</div>
+					<h2>microsoft--thumbprint</h2>
+				</li>
+				<li title="travel--boat">
+					<div class="icon-box">
+
+						<!-- travel--boat -->
+						<i class="svg-travel--boat">travel--boat</i>
+
+					</div>
+					<h2>travel--boat</h2>
+				</li>
+				<li title="travel--camera">
+					<div class="icon-box">
+
+						<!-- travel--camera -->
+						<i class="svg-travel--camera">travel--camera</i>
+
+					</div>
+					<h2>travel--camera</h2>
+				</li>
+				<li title="travel--earth">
+					<div class="icon-box">
+
+						<!-- travel--earth -->
+						<i class="svg-travel--earth">travel--earth</i>
+
+					</div>
+					<h2>travel--earth</h2>
+				</li>
+				<li title="travel--luggage">
+					<div class="icon-box">
+
+						<!-- travel--luggage -->
+						<i class="svg-travel--luggage">travel--luggage</i>
+
+					</div>
+					<h2>travel--luggage</h2>
+				</li>
+				<li title="travel--map">
+					<div class="icon-box">
+
+						<!-- travel--map -->
+						<i class="svg-travel--map">travel--map</i>
+
+					</div>
+					<h2>travel--map</h2>
+				</li>
+				<li title="travel--sunscreen">
+					<div class="icon-box">
+
+						<!-- travel--sunscreen -->
+						<i class="svg-travel--sunscreen">travel--sunscreen</i>
+
+					</div>
+					<h2>travel--sunscreen</h2>
+				</li>
+			</ul>
+
+<!--
+====================================================================================================
+-->
+
+		</section>
+		<footer>
+			<p>Generated at Wed, 21 Aug 2019 01:44:43 GMT by <a href="https://github.com/jkphl/svg-sprite" target="_blank">svg-sprite</a>.</p>
+		</footer>
+	</body>
+</html>
