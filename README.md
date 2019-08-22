@@ -1,5 +1,8 @@
 # svg-sprite-vue
 
+- To use the component make sure to include the polyfill in the index.html file
+
+
 ## Project setup
 ```
 npm install
